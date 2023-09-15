@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #A0D4A1;
+  color: #332F6B;
+  padding: 2.25px;
+  font-family: sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+canvas {
+  top: 0;
+  left: 0;
+}
+
+h2 {
+  font-size: 4rem;
+  text-align: center;
+  margin-right: 3.5rem;
+  margin-top: 5rem;
+}
+
+p {
+  text-align: center;
+  margin-right: 3.5rem;
+  margin-top: 1.5rem;
+}
+
+.profile-image {
+  width: 15rem;
+  margin-inline-end: 4rem;
+  border-radius: 20rem;
+}
+
+
+.bio {
+  display: flex;
+}
+
+@media screen and (max-width: 524px) {
+  .bio {
+    flex-direction: column;
+  }
+}
+
+.svg {
+  padding: 0;
+  margin-left: 0;
+  margin-bottom: 250px;
+
+}
+
+.img-blue {
+  width: 80px;
+  filter: invert(61%) sepia(13%) saturate(1928%) hue-rotate(152deg) brightness(86%) contrast(82%);
+}
+.img-blue2 {
+  margin-bottom: 4px;
+  width: 52px;
+  filter: invert(61%) sepia(13%) saturate(1928%) hue-rotate(152deg) brightness(86%) contrast(82%);
+}
+
+a.btn {background-image: linear-gradient(to right, #655ED1 0%, #BCB9ED 51%, #655ED1 100%)}
+a.btn {
+    text-decoration: none;
+    width: 400px;
+    margin: 10px;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 20px;
+    display: block;
+}
+a.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.work {
+  background: #FDDA5F
+}
+
+article {
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  article {
+    flex-direction: column;
+  }
+  .article-image {
+    width: 100%;
+  }
+}
+
+.blue {
+  background-color: #4199BC;
+  color: #FAFAFA;
+}
+
+.opacity {
+  opacity: 50%;
+}
